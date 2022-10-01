@@ -50,36 +50,45 @@ header .container {
     padding: 70px 32px;
 }
 .orion img,
-.orion-exile img {
+.orion-exile img,
+.trees img, 
+.burning img{
+    max-width: 783.4px;
     height: 600px;
     padding: 10px;
+    margin: 0 20px 0 0;
 }
 
 .orion ul h3,
-.orion-exile ul h3 {
+.orion-exile ul h3,
+.trees ul h3, 
+.burning ul h3{
     padding: 10px 0 10px 16px;
 }
 
 .orion li ,
-.orion-exile li{
+.orion-exile li,
+.trees li,
+.burning li{
     display: inline;
     margin: 16px;
 }
 
 .orion li p ,
-.orion-exile p{
-    max-width: 400px;
+.orion-exile p,
+.trees p,
+.burning p{
     margin: 0 0 0 16px;
     position: relative;
 }
 
-.orion,.orion-exile {
+.orion,.orion-exile, .trees, .burning {
     align-items: center;
-    margin: 0 auto;
+    margin: 0 0;
     max-width: 1200px;
     display: flex;
     justify-content: space-between;
 }
-.orion, .orion-exile {
-    padding: 0 20px 0 20px;
+.orion, .orion-exile, .trees, .burning {
+    padding: 0 0px 0 0px;
 }
