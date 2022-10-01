@@ -52,7 +52,9 @@ header .container {
 .orion img,
 .orion-exile img,
 .trees img, 
-.burning img{
+.burning img,
+.quasar img,
+.eater img{
     max-width: 783.4px;
     height: 600px;
     padding: 10px;
@@ -62,14 +64,18 @@ header .container {
 .orion ul h3,
 .orion-exile ul h3,
 .trees ul h3, 
-.burning ul h3{
+.burning ul h3,
+.quasar ul h3,
+.eater ul h3{
     padding: 10px 0 10px 16px;
 }
 
 .orion li ,
 .orion-exile li,
 .trees li,
-.burning li{
+.burning li,
+.quasar li,
+.eater li{
     display: inline;
     margin: 16px;
 }
@@ -77,18 +83,20 @@ header .container {
 .orion li p ,
 .orion-exile p,
 .trees p,
-.burning p{
+.burning p,
+.quasar p,
+.eater p{
     margin: 0 0 0 16px;
     position: relative;
 }
 
-.orion,.orion-exile, .trees, .burning {
+.orion,.orion-exile, .trees, .burning, .quasar, .eater{
     align-items: center;
     margin: 0 0;
     max-width: 1200px;
     display: flex;
     justify-content: space-between;
 }
-.orion, .orion-exile, .trees, .burning {
+.orion, .orion-exile, .trees, .burning, .quasar, .eater{
     padding: 0 0px 0 0px;
 }
