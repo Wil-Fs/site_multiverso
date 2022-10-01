@@ -18,7 +18,7 @@
 }
 
 header{
-    background-color: #594346;
+    background-color: #561e18;
     color: aliceblue;
     padding: 16px;
     font-family: 'Merienda', cursive;
@@ -103,4 +103,20 @@ header .container {
 }
 .orion, .orion-exile, .trees, .burning, .quasar, .eater, .explorer{
     padding: 0 0px 0 0px;
+}
+
+body {
+    background-color: #212027;
+}
+
+header {
+    background-color: #86180c;
+}
+
+h2{
+    color: #d42d0c;
+}
+
+section h3, section li {
+    color: #8d2f23;
 }
